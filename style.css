@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Syne+Mono&display=swap');
+
+html{
+    overflow:  hidden;
+}
+
+
+body{
+    background-image: url('bg.jpg');
+    animation: image 250s linear infinite;
+    
+    
+    background-size: cover;
+}
+
+
+@keyframes image {
+    0%{
+        background-position: 0% 0%;
+    }
+
+    50%{
+        background-position: 1400px 0%;
+    }
+
+    100%{
+        background-position: 0% 0%;
+    }
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 42px;
+    color:#fff;
+    margin-top: 150px;
+    z-index: 444;
+    border: 1px solid #fff;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+
+}
+
+h3{
+    font-size: 42px;
+    color:#fff;
+    z-index: 333;
+    
+
+}
+
+
+
+.raketa {
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+img {
+    width: 300px;
+    animation: mg 61s linear infinite;
+
+
+
+}
+
+
+
+@keyframes mg {
+    0%{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    50%{
+        margin-left: 300px;
+        margin-top: 300px;
+        width: 800px;    }
+
+    100%{
+        margin-left: 300px;
+        margin-top: 300px;
+        width: 10000px; 
+        outline: invert;  
+    
+    }
+}
+
+
